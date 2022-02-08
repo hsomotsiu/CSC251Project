@@ -1,3 +1,4 @@
+package project1;
 import java.util.Scanner;
 /**
  *
@@ -156,7 +157,7 @@ public class Policy {
         This method supports various data types and formats them into a string type.
         */
         output +="Policyholder's BMI: "+ String.format("%.2f",getBMI())+"\n";
-        output +="Policy price: "+ String.format("%.2f",getPolicyPrice())+"\n";
+        output +="Policy price: $"+ String.format("%.2f",getPolicyPrice())+"\n";
           
        return output;  
    }
