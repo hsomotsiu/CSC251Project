@@ -146,7 +146,7 @@ public class Policy {
         output +="Provider Name: "+ policyProvider + "\n";
         output +="Policyholder's First Name: "+ firstName + "\n";
         output +="Policyholder's Last Name: "+ lastName + "\n";
-        output +="Policyholder's age: "+ age + "\n";
+        output +="Policyholder's Age: "+ age + "\n";
         /* this is the short version of if else statement(Ternary Operator)
         instead of if smoking == true{print("smoker")} esle{print("non-smoker")} */
         output +="Policyholder’s Smoking Status: "+ (smoking==true?"smoker":"non-smoker") + "\n";
@@ -157,7 +157,7 @@ public class Policy {
         This method supports various data types and formats them into a string type.
         */
         output +="Policyholder's BMI: "+ String.format("%.2f",getBMI())+"\n";
-        output +="Policy price: $"+ String.format("%.2f",getPolicyPrice())+"\n";
+        output +="Policy Price: $"+ String.format("%.2f",getPolicyPrice())+"\n";
           
        return output;  
    }
