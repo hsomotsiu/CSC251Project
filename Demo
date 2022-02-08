@@ -27,7 +27,7 @@ import java.util.Scanner;
         String firstName = sc.nextLine();
         System.out.print("Please enter the Policyholder's Last Name: ");
         String lastName = sc.nextLine();
-        System.out.print("Please enter the Policyholder's age: ");
+        System.out.print("Please enter the Policyholder's Age: ");
         int age = sc.nextInt();
         System.out.print("Please enter the Policyholder's Smoking Status(smoker/non-smoker): ");
         sc.nextLine();//clear buffer
@@ -45,6 +45,7 @@ import java.util.Scanner;
         double height = sc.nextDouble();
         System.out.print("Please enter the Policyholder's Weight(in inches): ");
         double weight = sc.nextDouble();
+        System.out.println();
 
       
        //create a Policy object
