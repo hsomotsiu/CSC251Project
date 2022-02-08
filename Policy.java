@@ -1,11 +1,4 @@
-package project1;
-import java.util.Scanner;
-/**
- *
- * @author hsomotsiu
- */
 public class Policy {
-    
     //private instance variables
     
     private int policyNumber;
