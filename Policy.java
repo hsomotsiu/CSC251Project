@@ -1,3 +1,4 @@
+//Add document
 public class Policy {
     //private instance variables
     
